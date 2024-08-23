@@ -1,13 +1,7 @@
 const mysql = require("mysql2");
+require("dotenv").config();
+const DATABASE_URL = process.env.DATABASE_URL;
 
-const pool = mysql
-    .createPool({
-        host: process.env.HOST,
-        user: process.env.USER,
-        password: process.env.PASSWORD,
-        database: process.env.DATABASE,
-        connectionLimit: process.env.CONNECTION_LIMIT,
-    })
-    .promise();
+const connection = mysql.createConnection(DATABASE_URL);
 
-module.exports = pool;
+module.exports = connection;
