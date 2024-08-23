@@ -82,6 +82,16 @@ MySQL deployed on **clever-cloud**
 
 - **Postman Collection**: A Postman collection has been created for both APIs, including example requests and documentation of expected responses.
 
+## Dependencies
+
+- cors: It's used to enable or restrict requests from different domains, which is crucial for APIs that may be accessed by web applications hosted on different domains.
+- dotenv: Store environment-specific configuration and credentials in a .env file.
+- express: Core framework used to create routes, handle requests, and manage middleware in your application.
+- geolib: Used in your project to calculate and sort schools based on their proximity to a user's location by computing distances between geographic coordinates.
+- joi: Used to validate incoming requests, ensuring that they meet the required format, types, and constraints before processing them.
+- mysql2: sed to interact with your MySQL database, execute queries, and perform CRUD (Create, Read, Update, Delete) operations.
+- uuid: Used to generate unique IDs for entities like schools in your database, ensuring that each entry has a distinct identifier.
+
 ## Setup and Configuration
 - **Database Setup**: Ensure a MySQL database with a table **schools** is created using the following SQL:
     ```sql
