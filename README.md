@@ -40,13 +40,9 @@ MySQL deployed on **clever-cloud**
 ### List Schools API
 - **Endpoint**: `/listSchools`
 - **Method**: `GET`
-- **Payload**: 
-  ```json
-  {
-    "latitude": 12.9716,
-    "longitude": 77.5946
-  }
-  ```
+- **Parameters**:
+    - latitude: User's latitude (e.g., 12.9716)
+    - longitude: User's longitude (e.g., 77.5946)
 
 - **Functionality**: Fetches all schools from the database, sorts them based on proximity to the user's location, and returns the sorted list. 
 - **Validation**: Ensures all fields are non-empty and of correct data types
