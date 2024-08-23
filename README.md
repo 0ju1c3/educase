@@ -69,7 +69,7 @@ MySQL deployed on **clever-cloud**
           "latitude": 13.9718,
           "longitude": 77.5948,
           "distance": "1.01"
-        }
+        },
     }
     ```
 
