@@ -63,7 +63,7 @@ const addSchoolController = async (req, res) => {
 
 const listSchoolsController = (req, res) => {
     try {
-        const { error, value } = listSchool.validate(req.body); // Use req.query for GET request parameters
+        const { error, value } = listSchool.validate(req.query); // Use req.query for GET request parameters
         if (error) {
             return res.status(400).json({ error: error.details[0].message });
         }
