@@ -2,7 +2,7 @@
 This project implements a set of APIs using Node.js, Express.js, and MySQL for managing school data. The APIs include functionality to add new schools and retrieve a list of schools sorted by proximity to a user-specified location.
 
 **Link: https://educase.ojastapadia.in**
-**Render Link: https://educase-y90t.onrender.com/ **
+**Render Link: https://educase-y90t.onrender.com/**
 
 Backend deployed on **render**
 MySQL deployed on **clever-cloud**
@@ -77,8 +77,12 @@ MySQL deployed on **clever-cloud**
 ## Hosting and Testing
 - **Hosting**: The APIs are deployed and accessible at the following endpoints:
 
-    - Add School: https://educase.ojastapadia.in/addSchool
-    - List Schools: https://educase.ojastapadia.in/listSchools
+    - Add School: 
+        - https://educase.ojastapadia.in/addSchool
+        - https://educase-y90t.onrender.com/addSchool
+    - List Schools: 
+        - https://educase.ojastapadia.in/listSchools
+        - https://educase-y90t.onrender.com/listSchools
 
 - **Postman Collection**: A Postman collection has been created for both APIs, including example requests and documentation of expected responses.
 
